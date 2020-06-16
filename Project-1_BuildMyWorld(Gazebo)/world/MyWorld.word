@@ -3191,6 +3191,7 @@
       <pose frame=''>-1.67125 -1.83137 0 0 -0 0</pose>
     </model>
     <model name='MyRobot'>
+      <static>true</static>
       <link name='link_0'>
         <pose frame=''>0 0 0.040497 0 -0 0</pose>
         <inertial>
@@ -3817,6 +3818,7 @@
       <pose frame=''>-5.45969 0.644307 0 0 -0 0</pose>
     </model>
     <model name='MyRobot_0'>
+      <static>true</static>
       <link name='link_0'>
         <pose frame=''>0 0 0.040497 0 -0 0</pose>
         <inertial>
