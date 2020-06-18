@@ -34,9 +34,9 @@ void process_image_callback(const sensor_msgs::Image img)
     int white_pixel = 255;
     bool target_found = false;
     float lin_x=0.0,ang_z = 0.0;
-
+    // For pixel to be white all its three channels that is red, green and blue channels must have the intensities of 255.
     for (int i = 0; i < img.height * img.step; i ++) {
-		if (img.data[i] == white_pixel  && img.data[i + 5] == white_pixel) {          // The camera recognize the ball and now need to specify in which direction should the robot move
+		if (img.data[i] == white_pixel  && img.data[i + 1] == white_pixel && img.data[i + 2] == white_pixel ) {          // The camera recognize the ball and now need to specify in which direction should the robot move
 	    	target_found = true;
 	    	int row = i % img.step;      
 
