@@ -12,7 +12,9 @@ Directory Structure
 │   │   │   │   ├── add_markers.launch                    # launch file for home service robot
 │   │   │   ├── src
 │   │   │   │   ├── add_markers.cpp                       # source code for add_markers node
-│   │   ├── pick_objects                                  # pick_objects package     
+│   │   ├── pick_objects                                  # pick_objects package 
+│   │   │   ├── launch
+│   │   │   │   ├── pick_objects .launch                
 │   │   │   ├── src
 │   │   │   │   ├── pick_objects.cpp                      # source code for pick_objects node
 │   │   ├── rvizConfig                                    # rvizConfig package        
