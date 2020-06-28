@@ -7,6 +7,9 @@ Directory Structure
 .Home-Sevice-Robot                                        # Home Service Robot Project
 ├── catkin_ws                                             # Catkin workspace
 │   ├── src
+│   │   ├── my_robot                                      
+│   │   │   ├──
+│   │   │   ├──
 │   │   ├── add_markers                                   # add_markers package        
 │   │   │   ├── launch
 │   │   │   │   ├── add_markers.launch                    # launch file for home service robot
