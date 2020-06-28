@@ -125,8 +125,9 @@ xterm -e "source devel/setup.bash;roslaunch pick_objects pick_objects.launch"
 
 ## Run the project
 I assume that you have ROS installed on your machine and all necessary dependencies.
-```
+
 Open your Terminal
+```bash
 
 mkdir -p catkin_ws/src
 cd src/
